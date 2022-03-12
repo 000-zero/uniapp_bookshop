@@ -1,0 +1,49 @@
+{
+	"bsonType": "object",
+	"permission": {
+		"create": false,
+		"delete": false,
+		"read": true,
+		"update": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"code": {
+			"bsonType": "string",
+			"description": "编码"
+		},
+		"first_letter": {
+			"bsonType": "string",
+			"description": "拼音首字母"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "城市名称",
+			"title": "城市"
+		},
+		"parent_code": {
+			"bsonType": "string",
+			"description": "父级编码",
+			"parentKey": "code"
+		},
+		"pinyin": {
+			"bsonType": "string",
+			"description": "城市名称的完整汉语拼音，用于拼音检索"
+		},
+		"type": {
+			"bsonType": "int",
+			"description": "城市类型；0省，1市，2区"
+		},
+		"zip_code": {
+			"bsonType": "string",
+			"description": "邮政编码",
+			"title": "邮编"
+		}
+	},
+	"required": [
+		"code",
+		"name"
+	]
+}

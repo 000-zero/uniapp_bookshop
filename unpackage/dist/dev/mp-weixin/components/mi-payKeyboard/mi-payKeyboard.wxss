@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.hoverStyle.data-v-441a3b84 {
+  background: #e5e5e5;
+}
+.keyboard-content.data-v-441a3b84 {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.keyboard-content .content_.data-v-441a3b84 {
+  background: #FFFFFF;
+  width: 100%;
+}
+.keyboard-content .content_ .title.data-v-441a3b84 {
+  text-align: center;
+  padding: 20rpx 0;
+  font-weight: bold;
+  border-bottom: 1px solid #dddddd;
+  background: #f7f7f7;
+  color: #1F2324;
+  font-size: 30rpx;
+  letter-spacing: 1rpx;
+}
+.keyboard-content .content_ .password-error.data-v-441a3b84 {
+  background: #f7f7f7;
+  padding: 10rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F00;
+  font-size: 12rpx;
+}
+.keyboard-content .content_ .input-content.data-v-441a3b84 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f7f7f7;
+}
+.keyboard-content .content_ .input-content .input_.data-v-441a3b84 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D9D9D9;
+  background: #ffffff;
+}
+.keyboard-content .content_ .input-content .input_ > view.data-v-441a3b84 {
+  width: 90rpx;
+  height: 90rpx;
+  border-right: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.keyboard-content .content_ .input-content .input_ > view.data-v-441a3b84:last-child {
+  border-right: none;
+}
+.keyboard-content .content_ .input-content .input_ > view .dot.data-v-441a3b84 {
+  width: 20rpx;
+  height: 20rpx;
+  background: #000000;
+  border-radius: 50%;
+}
+.keyboard-content .content_ .forget.data-v-441a3b84 {
+  color: #666;
+  font-size: 24rpx;
+  background: #f7f7f7;
+  padding: 20rpx 40rpx;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.keyboard-content .content_ .board-content .title_.data-v-441a3b84 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+  font-size: 20rpx;
+  padding: 10rpx 0;
+}
+.keyboard-content .content_ .board-content .title_ > image.data-v-441a3b84 {
+  width: 22rpx;
+  height: 26rpx;
+  margin-right: 8rpx;
+}
+.keyboard-content .content_ .board-content .board.data-v-441a3b84 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #f2f2f2;
+}
+.keyboard-content .content_ .board-content .board .key.data-v-441a3b84 {
+  height: 110rpx;
+  flex: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  color: #222;
+  font-size: 50rpx;
+  border-left: none;
+  border-top: none;
+}
+.keyboard-content .content_ .board-content .board .small.data-v-441a3b84 {
+  font-size: 34rpx;
+  letter-spacing: 2rpx;
+  background-color: #f7f7f7;
+  color: #686868;
+}
+.keyboard-content .content_ .backspace.data-v-441a3b84 {
+  width: 45rpx;
+  height: 33rpx;
+}
+

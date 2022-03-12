@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "shop-list": "/components/shopList/shopList",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "pay-keyboard": "/components/mi-payKeyboard/mi-payKeyboard"
+  }
+}

@@ -1,0 +1,39 @@
+
+.top {
+	position: fixed;
+
+
+
+
+	top: 0px;
+
+	z-index: 99;
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 1px solid #eee;
+}
+.empty {
+	margin-top: 60%;
+}
+.page-box {
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+.thumb-box {
+	display: flex;
+	padding: 40rpx 30rpx;
+	flex-direction: column;
+	margin-top: 20rpx;
+	background-color: #fff;
+	border: 1px solid #eee;
+}
+.btn {
+	width: 200rpx;
+	line-height: 64rpx;
+	border: 1px solid #2979ff;
+	color: #2979ff;
+	float: right;
+}
+

@@ -1,0 +1,1 @@
+<view><u-upload vue-id="ea3041bc-1" fileList="{{fileList1}}" name="1" maxSize="{{5*1024*1024}}" maxCount="{{1}}" previewFullImage="{{true}}" data-event-opts="{{[['^afterRead',[['afterRead']]]]}}" bind:afterRead="__e" bind:__l="__l" vue-slots="{{['default']}}"><image style="width:80px;height:80px;border-radius:50%;" src="{{acatar_url}}"></image></u-upload></view>

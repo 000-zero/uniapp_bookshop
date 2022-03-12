@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "设置地址",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-data-picker": "/uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

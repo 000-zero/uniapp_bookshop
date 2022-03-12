@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.hb-comment.data-v-36062064 {
+  padding: 10rpx;
+}
+.top-read.data-v-36062064 {
+  font-size: 28rpx;
+  padding-left: 10rpx;
+  color: #999999;
+}
+.seg_line_box.data-v-36062064 {
+  display: flex;
+  height: 5rpx;
+  justify-content: space-between;
+  margin: 5rpx 0;
+}
+.seg_line.data-v-36062064 {
+  width: 45%;
+  border-bottom: 1rpx solid #e1e1e1;
+}
+.seg_dot.data-v-36062064 {
+  width: 8%;
+  border-bottom: 5rpx dotted #dbdbdb;
+}
+.comment-num.data-v-36062064 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.comment-box.data-v-36062064 {
+  padding: 10rpx 0;
+}
+.comment-box-item.data-v-36062064 {
+  display: flex;
+}
+.comment-main.data-v-36062064 {
+  padding-left: 20rpx;
+}
+.comment-main-top.data-v-36062064 {
+  width: 600rpx;
+  padding-top: 6rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-comment-main-top.data-v-36062064 {
+  width: 510rpx;
+  padding-top: 6rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.avatar.data-v-36062064 {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.nick-name-box.data-v-36062064 {
+  display: flex;
+  align-items: center;
+}
+.comLogo.data-v-36062064 {
+  margin-right: 18rpx;
+  font-size: 22rpx;
+  border-radius: 10rpx;
+  padding: 5rpx 15rpx;
+  color: #FFFFFF;
+}
+.com1.data-v-36062064 {
+  background-color: #d218b1;
+}
+.com2.data-v-36062064 {
+  background-color: #f19c0b;
+}
+.com3.data-v-36062064 {
+  background-color: #c8da85;
+}
+.com4.data-v-36062064 {
+  background-color: #bfd0da;
+}
+.nick-name.data-v-36062064 {
+  color: #2d8cf0;
+}
+.isLike.data-v-36062064 {
+  font-size: 28rpx;
+  padding-right: 10rpx;
+  color: #2d8cf0;
+}
+.notLike.data-v-36062064 {
+  font-size: 28rpx;
+  padding-right: 10rpx;
+  color: #999999;
+}
+.comment-main-content.data-v-36062064 {
+  padding: 10rpx 10rpx 10rpx 0;
+}
+.comment-main-foot.data-v-36062064 {
+  display: flex;
+  font-size: 22rpx;
+}
+.replayTag.data-v-36062064 {
+  color: #909399;
+  margin-bottom: 5px;
+  border: 1px solid #c8c9cc;
+  background-color: #f4f4f5;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16rpx;
+  padding: 5px 10px;
+}
+.replyTagClose.data-v-36062064 {
+  font-size: 20px;
+  line-height: 12px;
+  padding: 0 0 2px 5px;
+}
+.foot-btn.data-v-36062064 {
+  padding-left: 10rpx;
+  color: #007AFF;
+}
+.comment-sub-box.data-v-36062064 {
+  padding: 20rpx 0;
+}
+.comment-sub-item.data-v-36062064 {
+  display: flex;
+}
+.comment-none.data-v-36062064 {
+  padding: 20rpx;
+  width: 100%;
+  text-align: center;
+  color: #999999;
+}
+.comment-submit-box.data-v-36062064 {
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  z-index: 9900;
+  left: 0;
+  top: 0px;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.comment-add.data-v-36062064 {
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 5rpx;
+  border: 1px solid #ddd;
+  transition: .3s;
+  -webkit-transition: .3s;
+}
+.btn-click.data-v-36062064 {
+  color: #007AFF;
+  font-size: 28rpx;
+  padding: 10rpx;
+}
+.cancel.data-v-36062064 {
+  color: #606266;
+}
+.textarea.data-v-36062064 {
+  height: 100px;
+  padding: 16rpx;
+  width: 100%;
+}
+.comment-submit.data-v-36062064 {
+  padding: 5rpx 20rpx 0 20rpx;
+  border-bottom: 1px dashed #ddd;
+  width: calc(100% - 40rpx);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

@@ -2,8 +2,8 @@
 >基于uniapp的微信小程序读书读书商城（小程序端，服务端，后台管理员系统pc端）  
 服务端使用koa2框架，后台管理员系统使用vue3
 
->[服务端项目开源地址](https://gitee.com/zkaiyue/shop_server_koa2)  
-[后台管理员系统开源地址](https://gitee.com/zkaiyue/shop_manage)
+>[服务端项目开源地址](https://github.com/000-zero/shop_manage)  
+[后台管理员系统开源地址](https://github.com/000-zero/bookshop_server)
 
 # 小程序端
 ## 预览

@@ -10,9 +10,9 @@
 [更多线上图片预览](https://zkyzero.xyz/img/public/show/yul.png)
 
 ### 部分界面预览
-<img src="https://zkyzero.xyz/img/public/show/shouye.jpg" width="320" height="619"/> <img src="https://zkyzero.xyz/img/public/show/spxq.jpg" width="320" height="619"/>
+<img src="http://114.55.94.207:3000/public/show/shouy.jpg" width="320" height="619"/> <img src="http://114.55.94.207:3000/public/show/xianq.jpg" width="320" height="619"/>
 <br><br>
-<img src="https://zkyzero.xyz/img/public/show/spfl.jpg" width="320" height="619"/><img src="https://zkyzero.xyz/img/public/show/gcw.jpg" width="320" height="619"/>
+<img src="http://114.55.94.207:3000/public/show/fenl.jpg" width="320" height="619"/><img src="http://114.55.94.207:3000/public/show/cart.jpg" width="320" height="619"/>
 
 # 功能列表
 ## 页面
